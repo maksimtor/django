@@ -39,6 +39,9 @@ def redirect(to, *args, permanent=False, **kwargs):
     """
     redirect_class = HttpResponsePermanentRedirect if permanent else HttpResponseRedirect
     return redirect_class(resolve_url(to, *args, **kwargs))
+    
+def make_toast():
+    return 'toast'
 
 
 def _get_queryset(klass):

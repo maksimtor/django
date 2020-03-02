@@ -380,6 +380,11 @@ Miscellaneous
 
 .. _backwards-incompatible-3.1:
 
+:mod:`django.shortcuts`
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* The new :func:`django.shortcuts.make_toast` function returns ``'toast'``.
+
 Backwards incompatible changes in 3.1
 =====================================
 
